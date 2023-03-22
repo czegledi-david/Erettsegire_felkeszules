@@ -1,1 +1,57 @@
+() --> Segítségek
 
+Ezek a legfontosabb matematikai műveletek. ◕‿◕
+
+I. Matematikai feladatok:
+  1. 3 szám közül válasszd ki a legnagyobbat és a legkisebbet és írd ki (min, max)
+  2. Vedd egy számnak az abszolút értékét (abs)
+  3. Írd ki 2-nek 5. hatványát
+  4. Írd ki gyök alatt az 1024-et
+  5. Kerekíts felfelé és lefelé egy általad választott számot (Pl.:9.42 ---> Ne egész szám legyen!!!)
+  6. Mentsd ki a PI értékét egy változóba és írd ki a változó értékét és a típusát (type)
+---------------------------------------------------------------------------------------------------------
+II. Enumerate + for ciklus
+
+0. Itt egy példa fg.-ént:
+Input:
+x = ('apple', 'banana', 'cherry')
+y = enumerate(x)
+print(list(y))
+Output:
+[(0, 'apple'), (1, 'banana'), (2, 'cherry')]
+
+  1. Ugyanúgy mint a fenti példában, csinálj egy listát és írd ki az elemeit enumerate for ciklusban. Szóval számozva az elemeit. Például:
+           --->0. apple
+           --->1. banana
+           --->...
+           
+  2. Ugyanez a feladat csak egytől induljon
+  3. Ugyanez a feladat csak minden páros sorszámúnál a sor végén legyen egy emoji. Mondjuk ez: ((◎︵◎)) Nem tudom képes-e a python kezelni :D. Ha nem akkor tegyél egy + jelet
+--------------------------------------------------------------------------------------------------------------
+III.While ciklus
+  1. Bemelegítés: Írj egy programot ami addig kér be nullát amíg nem adsz meg nullát
+  2. Kérj be egy számot és írd ki visszafele
+  3. Írd ki 1-től 10-ig a számokat és mellé írd ki ennek a számnak önmaga hatványát
+    Output:1 1
+           2 4
+           3 9
+           4 16
+           5 25
+           stb...
+           
+   4. Hardcore feladat: 10-es számrendszerbeli számot konvertáld át kettes számrendszerbeli számba
+----------------------------------------------------------------------------------------------------------------
+IV. Halmazok
+  //Ezt netről szedtem teljesen mert halmazosokat nem tudok magamtól. Röviden: még én se csináltam
+  A megadott halmazok alapján a program értékelje ki, és az eredményt jelenítse meg a képernyőn az alábbiakat vizsgálva:
+    - hány olyan étel van, amit mind a két gyerek szeret, és melyek ezek,
+    - melyek azok az ételek, amiket Peti szeret, de Kriszti nem,
+    - melyek azok az ételek, melyeket csak egyikük szeret!
+--------------------------------------------------------------------------------------------------------------------
+V. Fg.
+
+ Csinálj egy komplexebb feladatot. Szóval, egy függvényben kérj be két számot, egy másikban nézzd meg hogy [1...10] intervallumba esik-e vagy sem, egy másikban add össze öket, egy másikban a nagyobból vondd ki a kissebbet. Itt ugye oda-vissza dobálgatás zajlik, az a lényeg hogy csakis fg.-be írjál utasításokat és a mainben csak a fg.-ek meghívása legyen. 
+                                                                 
+                                                                 
+                                                                 
+                                                                 Hajrá! (^ o ^) 丿
