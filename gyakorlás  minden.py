@@ -1,0 +1,126 @@
+#I rész
+# 1. feladat
+import math
+
+lista = [-2, 3, 7]
+max = lista[0]
+min = lista[0]
+for i in lista:
+    if i > max:
+        max = i
+    if i < min:
+        min = i
+print(f"Legnagyobb szám: {max}")
+print(f"Legkisebb szám: {min}")
+
+#2. feladat
+
+for i in lista:
+    if min < 0:
+        abszolut = abs(min)
+print(abszolut)
+
+#3. feladat
+
+szam = 2**5
+print(szam)
+
+#4.feladat
+print(math.sqrt(1024))
+
+#5 feladat
+print(round(9.65))
+
+#6. feladat
+pi = math.pi
+print(pi, type)
+
+print("------------------")
+#II rész
+#1. feladat
+
+lista1 = ["zöld", "kék", "piros"]
+for index, elem in enumerate(lista1):
+    print(f"{index}. {elem}")
+print()
+#2. feladat
+for index, elem in enumerate(lista1):
+    print(f"{index+1}. {elem}")
+print()
+#3. feladat
+lista2 = [2, 4, 5, 7, 8]
+for index, elem in enumerate(lista2):
+    if elem % 2:
+        print(f"{index + 1}. {elem} ")
+    else:
+        print(f"{index + 1}. {elem}+")
+print("-----------------------------------")
+#III. rész
+#1.feladat
+beker = int(input('Írj be egy 0-át: '))
+while beker != 0:
+    while beker < 0 or beker > 0:
+        print("Nem jó")
+        beker = int(input('Írj be egy 0-át: '))
+    break
+
+#2. feladat
+szam = int(input("Adj meg egy számot: "))
+#?
+
+#3. feladat
+for i in range(1, 10):
+    print(i, i**2)
+
+#4. feladat
+#?
+print("------------------------------")
+
+#IV. rész
+#1. feladat
+
+Peti_kedvencei = {'halászlé', 'bécsi szelet', 'bukta', 'rakott krumpli', 'almás rétes' }
+Kriszti_kedvencei = {'borsóleves', 'bécsi szelet', 'túrós tészta', 'lecsó', 'almás rétes' }
+
+print(len(Peti_kedvencei & Kriszti_kedvencei))
+print(Peti_kedvencei & Kriszti_kedvencei)
+print()
+print(len(Peti_kedvencei - Kriszti_kedvencei))
+print(Peti_kedvencei - Kriszti_kedvencei)
+print()
+print(Peti_kedvencei ^ Kriszti_kedvencei)
+print(len(Peti_kedvencei ^ Kriszti_kedvencei))
+print("----------------------------------")
+#V. rész
+#1. feladat
+
+def szamok(szam1, szam2):
+    return szam1, szam2
+
+print(szamok(3, 11))
+
+def szamok1(szam1, szam2):
+    if 0 < szam1 < 10 and 0 < szam2 < 10:
+        print('benne van')
+    elif 0 < szam1 < 10 or 0 < szam2 < 10:
+        print("csak az egyik van 1 és 10 között")
+    else:
+        print("nincs benne")
+    return szam1, szam2
+
+print(szamok1(3, 11))
+
+def szamok2(x, y):
+    osszeg = x + y
+    return osszeg
+
+print(szamok2(3, 5))
+
+def szamok3(x, y):
+    if x > y:
+        eredmeny = x - y
+    else:
+        eredmeny = y - x
+    return eredmeny
+print(szamok3(14, 5))
+
