@@ -12,6 +12,7 @@ for i in lista:
         min = i
 print(f"Legnagyobb szám: {max}")
 print(f"Legkisebb szám: {min}")
+#Nem erre gondoltam de így még tökéleteseb. A math-nak van min és max fg.-je
 
 #2. feladat
 
@@ -19,21 +20,30 @@ for i in lista:
     if min < 0:
         abszolut = abs(min)
 print(abszolut)
+#Jó lesz csak ebben az esetben felesleges a for ciklus mivel csak egy számra voltam kíváncsi. Így viszont mindig csak az utolsó lesz benne
+#ami végülis jó. 
 
 #3. feladat
 
 szam = 2**5
 print(szam)
+#Teljesen jó
 
 #4.feladat
 print(math.sqrt(1024))
+#Perrfect!
 
 #5 feladat
 print(round(9.65))
+#Ez alapjáraton egészre kerekít
+#math.ceil(1.4) --> Ez kerekít felfele ami azt jelenti hogy az output 2 lesz
+#math.floor(1.4) --> Ennek meg az otputja 1 lesz
+
 
 #6. feladat
 pi = math.pi
 print(pi, type)
+#Jó!
 
 print("------------------")
 #II rész
@@ -43,10 +53,12 @@ lista1 = ["zöld", "kék", "piros"]
 for index, elem in enumerate(lista1):
     print(f"{index}. {elem}")
 print()
+#Jó!
 #2. feladat
 for index, elem in enumerate(lista1):
     print(f"{index+1}. {elem}")
 print()
+#Jó!
 #3. feladat
 lista2 = [2, 4, 5, 7, 8]
 for index, elem in enumerate(lista2):
@@ -54,6 +66,7 @@ for index, elem in enumerate(lista2):
         print(f"{index + 1}. {elem} ")
     else:
         print(f"{index + 1}. {elem}+")
+ #Ez így jó csak én arra gondoltam hogy a string listának a sorszámainál ahol páros van, ott legyen egy +. Viszont ez is teljesen jó. Látszik hogy érted!
 print("-----------------------------------")
 #III. rész
 #1.feladat
@@ -63,7 +76,7 @@ while beker != 0:
         print("Nem jó")
         beker = int(input('Írj be egy 0-át: '))
     break
-
+#Szuper!
 #2. feladat
 szam = int(input("Adj meg egy számot: "))
 #?
