@@ -80,13 +80,43 @@ while beker != 0:
 #2. feladat
 szam = int(input("Adj meg egy számot: "))
 #?
+"""
+Szám visszafele:
+num = int(input("Adj meg egy számot:"))
+rev = 0
+
+while num != 0:
+    r = num%10
+    rev = rev * 10 + r
+    num = num // 10
+
+
+print(rev)
+
+"""
+
+
 
 #3. feladat
 for i in range(1, 10):
     print(i, i**2)
+#Jó!
 
 #4. feladat
-#?
+"""
+szam = int(input("Adj meg egy számot: "))
+b = 0
+p = 1
+n = szam
+
+while n > 0:
+    tmp = n%2
+    b += tmp * p
+    p = p*10
+    n = n//2
+
+print(b)
+"""
 print("------------------------------")
 
 #IV. rész
@@ -136,4 +166,55 @@ def szamok3(x, y):
         eredmeny = y - x
     return eredmeny
 print(szamok3(14, 5))
+
+
+
+
+"""
+def x_bekeres():
+    x = int(input("szam: "))
+    return x
+
+def y_bekeres():
+    y = int(input("szam: "))
+    return y
+
+x = x_bekeres()
+y = y_bekeres()
+
+
+def szamok1(szam1, szam2):
+    if 0 < szam1 < 10 and 0 < szam2 < 10:
+        print('benne van')
+    elif 0 < szam1 < 10 or 0 < szam2 < 10:
+        print("csak az egyik van 1 és 10 között")
+    else:
+        print("nincs benne")
+
+
+
+
+
+print(szamok1(x, y))
+
+def szamok2(x, y):
+    osszeg = x + y
+    return osszeg
+
+print(szamok2(x, y))
+
+def szamok3(x, y):
+    if x > y:
+        eredmeny = x - y
+    else:
+        eredmeny = y - x
+print(szamok3(x, y))
+
+
+"""
+
+
+
+
+
 
