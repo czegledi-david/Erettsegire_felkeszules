@@ -1,0 +1,53 @@
+Pár bemelegítő feladat: ( ͡◉ ͜ʖ ͡◉)
+  1. Írj egy Python programot, amely bekér három számot a felhasználótól és kiírja a képernyőre a
+     legkisebb értéket ezek közül!
+  2.Írj egy Python programot, amely bekér három egész számot a felhasználótól és kiírja a képernyőre,
+    hogy mind a három páros szám-e (igen/nem)!       ಠ_ಠ
+  3.Írj egy Python programot, amely bekér egy dolgozat pontszámot (x) a felhasználótól és kiír egy
+    érdemjegyet az alábbiak szerint! 1: x<50; 2: 50<=x<60; 3: 60<=x<70; 4: 70<=x<85; 5: x>=85.      ¯\(°_o)/¯
+  +1: . Írj egy Python programot, amely bekér két pozitív egész számot a felhasználótól és kiírja a
+        képernyőre azokat a páros számokat, amelyek a két adott érték közötti zárt intervallumban
+        találhatóak!
+
+Jöhetnek egy kicsit nehezebbek:
+  4.Készíts egy programot, amely a felhasználó által megadott mondatról a mondatvégi jel alapján eldönti milyen fajtájú!
+  5.Készíts egy programot, amely a felhasználótól bekér egy páros számot, majd ennek megfelelően rajzol ki a képernyőre egy pocak szerű alakzatot az alábbiak szerint!
+    A következő képpen nézzen ki:
+                
+              Adj meg egy páros számot! 8
+  
+                      O 
+                      O O 
+                      O O O 
+                      O O O O 
+                      O O O O 
+                      O O O 
+                      O O 
+                      O 
+  ______________________________________________________  ¯\_(• ~ •)_/¯
+  6.Kérj be egy szót a felhasználótól, majd írd ki a szó harmadik betűjét
+  7. Ugyanez mint a hatos, csak egy véletlen számú betűjét (pl ha ötöst dob a gép akkor az ötödik betűt) (•_•)
+
+Extrém durván nehéz feladatok:
+
+  8.Írj egy Python függvényt, amely paraméterként kap egy szót (sztringet) és megmondja, hogy ez egy
+    palindróm-e! A programodban hívd is meg ezt az alprogramot!
+  9.Írj egy Python programot, amely bekér a felhasználótól egy sztringet és ezt úgy íratja ki, hogy a
+    szóköz karaktereket kihagyja!
+  10.Írj egy Python programot, amelyben megadsz egy tetszőleges egészeket tartalmazó listát, majd a
+     lista elemeit csökkenő sorrendbe rendezed anélkül, hogy használnád a sort() metódust.
+
+
+
+Nyílván nem kell mindet megcsinálni de asszem ezekkel most el leszel egy darabig. 
+
+
+
+
+
+
+
+
+
+
+
