@@ -1,0 +1,147 @@
+2023.08.04
+----------------
+A nehézségi szintek :
+1 – kezdő, 2 – közép, 3 - nehéz; 4 – jó ez most mi?
+----------------
+1. szint:
+	1.)
+		Egy listában tároljuk, hogy a focicsapatunk az egyes meccsein nyert, vesztett, vagy döntetlent játszott: ['ny', 'ny', 'v', 'd', 'd', 'd', 'v', 'v', 'ny', 'ny', 'd']. 
+		A győzelemért három, a döntetlenért egy pont jár.
+		Írd ki a képernyőre, hány pontja van a bajnokságban?
+		
+		Output:
+		Pontszám: 16
+	2.)
+		Írd ki a képernyőre a számokat szóközzel elválasztva 1-től 15-ig! Valósítsd meg for ciklussal, while-ciklussal és 1 soros megoldással is! 
+		Figyelj arra, hogy az utolsó számot követően ne írja ki a vesszőt!
+		
+		Output:
+		1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+		1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 
+		1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+	
+	3.)
+		Készíts egy 2-es szorzótáblát
+
+		Output:
+		2, 6, 8, 10, 12, 14, 16, 18, 20
+		
+2. szint:
+	1.)
+		Írj programot, amely bekér 8 osztályzatot, eltárolja őket egy listában, majd kiírja őket egy sorban, vesszővel elválasztva. 
+		Majd kiírja az összegüket, szorzatukat, átlagukat (két tizedes jegyre kerekítve) tabulátorokkal elválasztva!
+
+	Output:
+	Kérem a(z) 1. osztályzatot: 3
+	Kérem a(z) 2. osztályzatot: 5
+	Kérem a(z) 3. osztályzatot: 4
+	Kérem a(z) 4. osztályzatot: 2
+	Kérem a(z) 5. osztályzatot: 4
+	Kérem a(z) 6. osztályzatot: 5
+	Kérem a(z) 7. osztályzatot: 4
+	Kérem a(z) 8. osztályzatot: 5
+	3,5,4,2,4,5,4,5
+	Összegük: 32     szorzatuk: 48000     átlag: 4.0
+
+	2.)
+	Hozz létre egy listát, amelynek elemszáma véletlenszerű 20-40 között, és a lista elemei 1 és 10 közötti véletlen számok (1 és 10 is lehet benne)! 
+	Írd ki a lista elemeinek a számát, a legkisebb és a legnagyobb számot, és hogy milyen elemből hány darab van a listában.
+	
+	Output:
+	A lista elemeinek a száma 38
+	Legkisebb szám: 1
+	Legnagyobb szám: 10
+	1 : 6
+	2 : 6
+	3 : 3
+	4 : 1
+	5 : 4
+	6 : 6
+	7 : 2
+	8 : 6
+	9 : 2
+	10 : 2
+
+	3.)
+	Kérj be egy nap nevét a felhasználótól és döntsd el, hogy tényleg egy nap nevét adta-e meg. 
+	(Segítségül: tárold el a hét napjait egy listában és vizsgáld meg, hogy amit a felhasználó megadott, az eleme-e ennek a listának.)
+	
+	Output:
+	Kérek egy nap nevét: qwert
+	Nem egy nap nevét írtad be.
+
+	Kérek egy nap nevét: kedd
+	Tényleg egy nap nevét írtad be.
+	
+3. szint:
+
+
+	1.)Kérd be a felhasználótól, hány elemű legyen a lista (N), majd készítsd el a N elemű listát 1 és 20 közötti véletlen számokkal! Írd ki a lista első és utolsó elemét! Írd ki a legkisebb és a legnagyobb számot!
+	2.)Írd ki egy vesszővel és szóközzel elválasztva, milyen számok szerepelnek a listában, és azokból hány darab van! Minden elem és darabszám páros kerüljön új sorba!
+	3.)Írd ki, hogy hány darab 10-nél nagyobb szám van!
+	4.)Rendezd a listát nagyság szerint, és írd ki az elemeit vesszővel és szóközzel elválasztva!
+
+	Output:
+	Hány elemű legyen a lista? 10
+	A lista első eleme: 6 utolsó eleme: 17
+	Legnagyobb szám: 19 legkisebb szám: 1
+	1, 1
+	2, 1
+	6, 2
+	7, 1
+	11, 1
+	16, 1
+	17, 1
+	18, 1
+	19, 1
+	10-nél nagyobb számok: 5 darab
+	1, 2, 6, 6, 7, 11, 16, 17, 18, 19
+
+
+4. szint:
+	1.)Hozz létre egy saját függvényt paros néven, ami bemenetként egy számot kap.
+	A visszatérési értéke igaz logikai érték, ha a szám páros és hamis logikai érték, ha a szám páratlan. 
+	Az elkészült függvényt hívd meg öt, véletlenszerűen generált pozitív egész számmal. 
+	A program írja ki a számot és egy szóközzel elválasztva azt is, hogy páros vagy páratlan.
+
+	Output:
+	
+	7 páratlan #Itt a hetes a fg.-nek adott érték, a páratlan meg az eredmény amit a fg. vissza dob
+	12 páros
+	11 páratlan
+	13 páratlan
+	19 páratlan
+
+
+	2.)
+	A program előállít egy véletlen számot 1 és 20 között, a felhasználónak ezt kell kitalálnia tippek megadásával.
+	A program minden tipp bekérése után megmondja, hogy amit ki kell találni, az kisebb, nagyobb vagy egyenlő.
+	Ha kitalálta, akkor kiírja, hány lépésben találta ki, megkérdezi, hogy folytatja-e még a játékot, és a válasz alapján elköszön vagy újra kitalál egy véletlen számot, és lehet tippelni.
+
+	Output:
+	Kérek egy tippet: 20
+	A keresett szám kisebb
+	Kérek egy tippet: 10
+	A keresett szám nagyobb
+	Kérek egy tippet: 15
+	A keresett szám nagyobb
+	Kérek egy tippet: 17
+	A keresett szám nagyobb
+	Kérek egy tippet: 18
+	Ez volt a keresett szám, tippek száma: 5
+	
+	Új játék? (I/N)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
