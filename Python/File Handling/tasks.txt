@@ -1,0 +1,39 @@
+Magyarázat: beolvasando.txt - Ebben a txt-ben minden sor és mező megvan!
+            beolvasandoHS.txt - Ebben a txt-ben néhol egy-egy sor kimaradt, mert a gyakornok rosszul vitte fel Excelbe.
+	    beolvasandoHSandHM - Ebben a txt-ben néhol egy-egy sor kimaradt, illetve egy-két mező is! Ezt egy még rosszabb gyakornok vitte fel! ¯\_( ͡° ͜ʖ ͡°)_/¯ 
+
+Sorok magyarázata:
+	Sarah Taylor,31,ST456,Female,1234
+ 
+1. Név - Alkalmazott neve
+2. Kor - Alkalmazott kora
+3. Aonosító - Alkalmazott azonosítója amivel nézik, hogy mikor lépett be és ki a kapun
+4. Nem - Alkalmazott neme
+5. Belépő kód - Alkalmazott pin kódja amivel belép a számítógépbe ╭(* _ *)╮
+
+
+0. Olvasd be a fájlokat, mindet különböző listákba. A feladatokat olyan listára old meg amely hiányos, azaz a beolvasandoHS vagy a beolvasandoHSandHM közül válassz!
+
+
+1.Átlagéletkor kiszámítása: Készíts egy funkciót, amely kiszámítja az átlagéletkort és visszatér az eredménnyel.
+
+2. Fiú és lányok számának meghatározása: Készíts egy funkciót, amely megszámolja, hány fiú és hány lány van az adatok között, majd térjen vissza a két számot tartalmazó tuple-lel.
+
+
+4. Legfiatalabb és legidősebb személy megkeresése: Készíts egy funkciót, amely megkeresi a legfiatalabb és a legidősebb személy nevét és életkorát az adatok között, majd térjen vissza a két nevet és életkort tartalmazó tuple-lel.
+
+5. Nemek arányának kiszámítása: Írj egy funkciót, amely meghatározza a férfiak és nők arányát az adatok között, majd térjen vissza ezzel az aránnyal.
+
+7. Leggyakoribb életkor meghatározása: Készíts egy funkciót, amely meghatározza, melyik életkor fordul elő leggyakrabban az adatokban, majd térjen vissza ezzel az életkorral.
+
+8. Névsor készítése életkor szerinti rendezéssel: Írj egy funkciót, amely rendezetten kiírja az emberek nevét és életkorát az adatok alapján, életkor szerint növekvő sorrendben.
+
+
+Szorgalmi!
+Készíts egy admin programot. - Lehessen lekérdezni,hogy hány ember dolgozik ott.
+			     - Lehessen lekérdezni, hogy ha egy adott embernek az azonosítóját bekértük akkor kiíírja a hozzátartozó adatokat.
+			     - Lehessen lekérdetni, hogy az adott személy jogosult-e szja mentességre (25 év alatt jogosult rá)
+		             - X karakter megadásakor lépjen ki a program.
+A szorgalmi program legyen folyamatos és ami nagyon fontos, hogyha a felhasználó nem megfelelő tipusú adatot ad meg, akkor se omoljon össze a kód, hanem közölje vele, hogy elrontottad és kezd újra!
+
+Hajrá! •ᴗ•
