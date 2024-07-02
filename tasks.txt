@@ -1,0 +1,21 @@
+1. Ovasd be a txt fájlt (map-et célszerű ez esetben használni)
+
+2. Távolságok átlaga:
+
+	Olvass be az első 10 sorból 5 pontpárt, számold ki a távolságokat és az átlagukat.
+
+3. Legnagyobb távolság:
+
+	Olvass be 20 sorból 10 pontpárt, és határozd meg a legnagyobb távolságot.
+
+4. Legközelebbi és legtávolabbi pontpár:
+
+	Olvass be az első 40 sorból 20 pontpárt, határozd meg a legközelebbi és legtávolabbi pontpárt.
+
+5. Pontpárok távolság szerinti rendezése:
+
+	Olvass be az első 60 sorból 30 pontpárt, és rendezd őket a távolságuk alapján növekvő sorrendbe.
+
+6. Pontok eloszlása négyzetben:
+
+	Olvass be az első 80 sorból 40 pontpárt, és határozd meg, hogy az összes pontpár egy négyzeten belül található-e (azaz mindkét pont 	koordinátája egy adott határon belül van).
